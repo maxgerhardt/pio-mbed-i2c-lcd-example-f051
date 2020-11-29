@@ -12,7 +12,7 @@
 //#define En 0B00000100 // Enable bit
 //#define Rw 0B00000010 // Read/Write bit
 //#define Rs 0B00000001 // Register select bit
-//data bis D0..D3 is expected on P4..P7
+//data bis D4..D7 is expected on P4..P7
 //backlight on P3.
 
 LiquidCrystal_I2C lcd(I2C_ADDRESS, LCD_NUM_COLUMNS, LCD_NUM_LINES, LCD_I2C_SDA, LCD_I2C_SCL);
